@@ -186,11 +186,123 @@ Para exportar tu catálogo:
 
 ## Ordenar Catálogo
 
-Para cambiar el orden de visualización de los productos:
+La funcionalidad de **Ordenar Catálogo** te permite definir cómo se muestran los productos en cada categoría de tu tienda.
 
-1. Haz clic en **↕️ Ordenar catálogo**
-2. Arrastra los productos para reordenarlos
-3. Guarda los cambios
+### Acceder al Ordenamiento
+
+1. Ve a **Productos**
+2. Haz clic en **↕️ Ordenar catálogo**
+3. Se abrirá la pantalla de ordenamiento
+
+### Seleccionar Categoría
+
+1. En el selector **Categoría**, elige la categoría que deseas ordenar
+2. Las subcategorías se muestran con formato jerárquico:
+   - `Ropa`
+   - `Ropa > Remeras`
+   - `Ropa > Remeras > Manga Corta`
+3. Los productos de esa categoría se cargarán automáticamente
+
+### Criterios de Ordenamiento
+
+Selecciona cómo quieres ordenar los productos en el selector **Ordenar por**:
+
+| Criterio | Descripción |
+|----------|-------------|
+| **Precio: menor a mayor** | Del más barato al más caro |
+| **Precio: mayor a menor** | Del más caro al más barato |
+| **Nombre: A → Z** | Alfabético ascendente |
+| **Nombre: Z → A** | Alfabético descendente |
+| **Más nuevo** | Productos más recientes primero |
+| **Más viejo** | Productos más antiguos primero |
+| **Orden manual** | Arrastra para personalizar el orden |
+
+### Orden Manual (Drag & Drop)
+
+Cuando seleccionas **Orden manual**, puedes personalizar completamente el orden:
+
+1. Selecciona "Orden manual" en el selector
+2. Aparecerá un ícono de arrastre (⋮⋮) en cada producto
+3. **Para reordenar:**
+   - Haz clic y mantén presionado sobre un producto
+   - Arrastra a la posición deseada
+   - Suelta para confirmar
+4. El número de posición (#1, #2, #3...) se actualiza automáticamente
+
+### Reordenar Rápidamente
+
+Cuando estás en modo "Orden manual", aparece una opción especial para **reordenar productos**:
+
+1. Verás un panel azul con la opción "Reordenar productos"
+2. Selecciona un criterio base (ej: "Precio: menor a mayor")
+3. Los productos se reorganizarán según ese criterio
+4. Luego puedes ajustar manualmente posiciones específicas
+
+> **💡 Tip**: Esto es útil para empezar con un orden lógico y luego destacar productos específicos moviéndolos al principio.
+
+### Vistas de Ordenamiento
+
+Puedes ver los productos en dos formatos:
+
+| Vista | Descripción |
+|-------|-------------|
+| **Lista** | Vista compacta en filas, ideal para muchos productos |
+| **Grilla** | Vista de tarjetas con imágenes más grandes |
+
+Cambia entre vistas usando los botones **Lista** y **Grilla**.
+
+### Información Mostrada
+
+Cada producto muestra:
+- **#N**: Número de posición actual
+- **Imagen**: Miniatura del producto
+- **Nombre**: Nombre del producto (clickeable para editar)
+- **Precio**: Precio de la variante principal
+- **Fecha de creación**: Cuándo se creó el producto
+
+### Guardar el Orden
+
+**¡Importante!** Los cambios NO se guardan automáticamente.
+
+1. Realiza todos los cambios de orden que necesites
+2. Haz clic en el botón **Grabar** (arriba a la derecha)
+3. Espera la confirmación "Orden guardado"
+
+> **⚠️ Advertencia**: Si sales de la página sin guardar, perderás los cambios realizados.
+
+### Carga Infinita
+
+Si la categoría tiene muchos productos:
+- Se cargan de a 30 productos por vez
+- Al hacer scroll hacia abajo, se cargan más automáticamente
+- El indicador "Cargando más productos..." aparece durante la carga
+- Cuando no hay más productos, verás "No hay más productos para mostrar"
+
+### Ejemplos de Uso
+
+#### Destacar productos nuevos
+1. Selecciona "Orden manual"
+2. Usa "Reordenar" con "Más nuevo"
+3. Los productos recientes quedan primero
+4. Guarda
+
+#### Mostrar ofertas primero
+1. Selecciona "Precio: menor a mayor"
+2. Guarda
+3. Los productos más económicos aparecen primero
+
+#### Orden personalizado para landing
+1. Selecciona "Orden manual"
+2. Arrastra los productos destacados a las primeras posiciones
+3. Organiza visualmente para máximo impacto
+4. Guarda
+
+### Consideraciones
+
+- El orden se guarda **por categoría**
+- Cada categoría puede tener su propio criterio
+- Los productos en múltiples categorías pueden tener diferente orden en cada una
+- El orden afecta cómo se muestran en la tienda online
 
 ---
 
